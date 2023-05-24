@@ -4,4 +4,6 @@
 
 ![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/endlessRoad/endlessRoad.gif)
 
+![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/smileyFace/smileyFace.gif)
+
 ![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/waterCup/waterCup.gif)
