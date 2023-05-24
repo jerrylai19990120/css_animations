@@ -1,4 +1,4 @@
-# css_animations
+# CSS Animations 
 
 ![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/TypingNeonBoard/typing.gif)
 
