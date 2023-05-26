@@ -1,13 +1,30 @@
 body {
     margin: 0;
     padding: 0;
+    background: #222B3A;
 }
 
-ul {
+.container {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+#flag1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-20deg) skew(20deg);
+    transform: translate(-150%, -50%) rotate(-20deg) skew(20deg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#flag2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%) rotate(-20deg) skew(20deg);
     margin: 0;
     padding: 0;
     display: flex;
@@ -85,7 +102,7 @@ ul li:nth-child(20n + 19) {
 ul li:nth-child(20n + 20) {
     animation-delay: -9.5s;
 }
-ul li::before{
+#flag1 li::before{
     content: '';
     position: absolute;
     width: 100%;
@@ -94,6 +111,17 @@ ul li::before{
     left: 0;
     bottom: 0;
     background: red;
+}
+
+ul li:nth-child(n) {
+    background: #02834E;
+}
+ul li:nth-child(n+36) {
+    background: #fff;
+}
+
+ul li:nth-child(n+70) {
+    background: #02834E;
 }
 
 @keyframes animate {
@@ -114,7 +142,7 @@ ul li::before{
     }
 }
 
-#img1 {
+.img1 {
     width: 100px;
     height: 100px;
     position: absolute;
@@ -124,7 +152,7 @@ ul li::before{
     animation: rotate 20s linear infinite;
 }
 
-#img2 {
+.img2 {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -134,7 +162,7 @@ ul li::before{
     animation: rotate 20s linear infinite;
 }
 
-#img3 {
+.img3 {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -144,7 +172,7 @@ ul li::before{
     animation: rotate 20s linear infinite;
 }
 
-#img4 {
+.img4 {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -154,7 +182,7 @@ ul li::before{
     animation: rotate 20s linear infinite;
 }
 
-#img5 {
+.img5 {
     width: 30px;
     height: 30px;
     position: absolute;
