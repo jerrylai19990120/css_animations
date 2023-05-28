@@ -4,6 +4,8 @@
 
 ![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/hotCoffee/hotCoffee.gif)
 
+![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/tikTokStyle/tiktok.gif)
+
 ![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/wavingFlag/flag.gif)
 
 ![](https://github.com/jerrylai19990120/css_animations/blob/master/projects/endlessRoad/endlessRoad.gif)
